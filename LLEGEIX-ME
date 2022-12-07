@@ -1,0 +1,20 @@
+INSTRUCCIONS
+-----------------------------------------------------------------------------------------
+Apartat 1 - git branch branca00
+            git checkout branca00
+            git status
+Apartat 5 - git checkout main
+            git main
+Apartat 7 - git checkout branca00
+Apartat 10b - git merge branca00
+Apartat 12 - git push 
+Apartat 14 - git push --set upstreamr origin branca01
+-----------------------------------------------------------------------------------------
+RESPOSTES
+Apartat 6 - No, ja que al haver fet un checkout a la branca main, els canvis han desaparegut, ja que ara tinc la versió del
+            fitxer del commit 1.0.1.
+Apartat 7 - Sí, ja que al fer el checkout, ha agafat els canvis de la branca00 de la versió 1.1.
+Apartat 12c - Nomes apareix la branca main ja que la branca00 es únicament local, ja que no s’ha fet cap push d’aquesta
+              branca.
+Apartat 14c - Tal i com diu a github, està un commit per davant de main
+-----------------------------------------------------------------------------------------
